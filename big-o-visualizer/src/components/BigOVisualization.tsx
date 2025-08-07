@@ -434,7 +434,7 @@ const BigOVisualization = () => {
           <div className="text-sm">
             <p className="font-medium mb-2">Mathematical Definition:</p>
             <p className="font-mono text-xs bg-gray-100 p-2 rounded">
-              {`f(n) = O(g(n)) if ∃ c, n₀ > 0 such that f(n) ≤ c·g(n) for all n ≥ n₀`}
+              f(n) = O(g(n)) if ∃ c, n₀ > 0 such that f(n) ≤ c·g(n) for all n ≥ n₀
             </p>
             <p className="mt-2 text-xs text-gray-600">
               Translation: Your algorithm will never be slower than this upper bound for large inputs.
@@ -457,3 +457,6 @@ const BigOVisualization = () => {
 };
 
 export default BigOVisualization;
+
+
+
